@@ -41,18 +41,18 @@ p {
 
 #title1 {
     background-color: #d87093;
-    border: .2rem solid black;
+    border: .1rem solid black;
 }
 
 #title2 {
     background-color: rgb(199, 87, 87);
-    border: .2rem solid black;
+    border: .1rem solid black;
     color: white;
 }
 
 #title3 {
     background-color: khaki;
-    border: .2rem solid black;
+    border: .1rem solid black;
 }
 
 
@@ -69,7 +69,7 @@ p {
         padding: 5rem 1.5rem;
         margin-right: 2%;
         float: left;
-        border: .2rem solid black;
+        border: .1rem solid black;
     }
     section:last-child {
         margin-right: 0;
@@ -90,21 +90,21 @@ p {
         padding: 4.7rem 1.5rem;
         margin-right: 2.5%;
         float: left;
-        border: .2rem solid black;
+        border: .1rem solid black;
     }
     section:nth-child(2) {
         height: 15rem;
         width: 48.75%;
         padding: 4.7rem 1.5rem;
         float: left;
-        border: .2rem solid black;
+        border: .1rem solid black;
     }
     section:last-child {
         height: 15rem;
         width: 100%;
         padding: 4.7rem 1.5rem;
         float: left;
-        border: .2rem solid black;
+        border: .1rem solid black;
     }
 }
 
@@ -121,6 +121,6 @@ p {
         width: 100%;
         padding: 4rem 1.5rem;
         float: left;
-        border: .2rem solid black;
+        border: .1rem solid black;
     }
 }
