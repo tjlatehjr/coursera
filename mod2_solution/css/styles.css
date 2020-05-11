@@ -1,0 +1,126 @@
+/* Base Styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+h1 {
+    font-size: 2.3635rem;
+    text-align: center;
+    margin: 2rem 0 2.5rem 0;
+}
+
+section {
+    background-color: #adadad;
+    position: relative;
+    overflow: hidden;
+    margin: 1.3rem 0;
+}
+
+h2 {
+    font-size: 1.6875rem;
+    position: absolute;
+    top: -.2rem;
+    right: -.2rem;
+    padding: .2rem 2.5rem;
+}
+
+p {
+    font-size: 1.35rem;
+}
+
+#title1 {
+    background-color: #d87093;
+    border: .2rem solid black;
+}
+
+#title2 {
+    background-color: rgb(199, 87, 87);
+    border: .2rem solid black;
+    color: white;
+}
+
+#title3 {
+    background-color: khaki;
+    border: .2rem solid black;
+}
+
+
+/* Desktop Styles */
+
+@media (min-width: 992px) {
+    div {
+        width: 97%;
+        margin: auto;
+    }
+    section {
+        height: 15rem;
+        width: 32%;
+        padding: 5rem 1.5rem;
+        margin-right: 2%;
+        float: left;
+        border: .2rem solid black;
+    }
+    section:last-child {
+        margin-right: 0;
+    }
+}
+
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div {
+        width: 95%;
+        margin: auto;
+    }
+    section:first-child {
+        height: 15rem;
+        width: 48.75%;
+        padding: 4.7rem 1.5rem;
+        margin-right: 2.5%;
+        float: left;
+        border: .2rem solid black;
+    }
+    section:nth-child(2) {
+        height: 15rem;
+        width: 48.75%;
+        padding: 4.7rem 1.5rem;
+        float: left;
+        border: .2rem solid black;
+    }
+    section:last-child {
+        height: 15rem;
+        width: 100%;
+        padding: 4.7rem 1.5rem;
+        float: left;
+        border: .2rem solid black;
+    }
+}
+
+
+/* Mobile Styles */
+
+@media (max-width: 767px) {
+    div {
+        width: 90%;
+        margin: auto;
+    }
+    section {
+        height: 14rem;
+        width: 100%;
+        padding: 4rem 1.5rem;
+        float: left;
+        border: .2rem solid black;
+    }
+}
