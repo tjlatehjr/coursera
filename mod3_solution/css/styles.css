@@ -116,6 +116,12 @@ p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 
 @media (max-width: 320px) {
+    .content {
+        height: 50rem;
+        background-color: #777;
+        padding: 1.5rem;
+        overflow: hidden;
+    }
     span a {
         color: rgb(46, 46, 168);
         text-decoration: underline;
