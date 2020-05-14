@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*.container-fluid {
+    padding: 0 5rem;
+}
+
+.navbar {
+    border: 0;
+    border-bottom: .2rem solid black;
+    background-color: #777;
+    border-radius: 0;
+}
+
+#brand {
+    padding: 2rem 1.5rem;
+    height: 5.8rem;
+    color: black;
+    font-size: 2.3rem;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: .2rem solid black;
+}
+
+.content {
+    height: 30rem;
+    background-color: #777;
+    padding: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    *.container-fluid {
+        padding: 0 3rem;
+    }
+    .container-fluid>.navbar-collapse {
+        margin: 0 -3rem;
+    }
+    #collapsed-navbar {
+        background: white;
+        border-top: .2rem solid black;
+    }
+    #menu-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #menu-list a {
+        color: black;
+        font-size: 1.7rem;
+        font-family: 'Balsamiq Sans', cursive;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #menu-list a:hover {
+        background: #777;
+    }
+    #menu-list li {
+        border-bottom: 2px solid black;
+    }
+    #menu-list li:last-child {
+        border-bottom: 0;
+    }
+    .content {
+        height: 30rem;
+        background-color: #777;
+        padding: 1.5rem;
+        overflow: hidden;
+    }
+    span a {
+        color: rgb(46, 46, 168);
+        text-decoration: underline;
+        margin-left: .8rem;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 320px) {
+    span a {
+        color: rgb(46, 46, 168);
+        text-decoration: underline;
+        margin-left: .8rem;
+    }
+}
