@@ -37,7 +37,7 @@ body {
 }
 
 .content {
-    height: 30rem;
+    height: 70rem;
     background-color: #777;
     padding: 1.5rem;
     overflow: hidden;
@@ -100,7 +100,7 @@ p {
         border-bottom: 0;
     }
     .content {
-        height: 30rem;
+        height: 70rem;
         background-color: #777;
         padding: 1.5rem;
         overflow: hidden;
